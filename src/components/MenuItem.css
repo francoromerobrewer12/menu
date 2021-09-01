@@ -1,0 +1,29 @@
+
+.menu-item{
+    width: 47.5%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    background-color: rgb(243, 243, 243);
+    border-radius: 10px;
+  }
+  
+  .menu-foto{
+    width: 40%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 0 0 10px;
+  }
+  
+  .dish-info{
+    width: 60%;
+    padding: 1rem
+  }
+  
+  .dish-name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
