@@ -6,7 +6,7 @@
 }
 
 .App-contenedor{
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -23,6 +23,7 @@
   margin-bottom: 2rem;
   margin-left: 1rem;
   padding: 0.5rem;
+  cursor: pointer;
 }
 
 .menu-list{
@@ -30,4 +31,5 @@
   height: auto;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }

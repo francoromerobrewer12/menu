@@ -10,7 +10,7 @@ function MenuItem(props) {
           <div className="dish-info">
             <div className="dish-name">
               <h4 className="dish-tittle">{props.tittle}</h4>
-              <p className="price"> ${props.price}</p>
+              <p className="dish-price"> ${props.price}</p>
             </div>
             <p className="description">{props.description}</p>
           </div> 
